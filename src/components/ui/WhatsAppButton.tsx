@@ -70,8 +70,7 @@ export default function WhatsAppButton() {
             <div className="p-4">
               <div className="bg-white/80 rounded-xl p-3 shadow-sm">
                 <p className="text-dark text-sm font-body leading-relaxed">
-                  🙏 Pranam! Adhyatmik Sankalp mein aapka swagat hai. Online
-                  puja, spiritual guidance, ya kisi bhi seva ke liye hum yahan hain.
+                  Greetings! Welcome to 'Adhyatmik Sankalp'. We are here for online puja, spiritual guidance, or any other service.
                 </p>
               </div>
               <a
