@@ -8,16 +8,7 @@ import { WHATSAPP_URL } from "@/lib/constants";
 export default function WhatsAppButton() {
   const [isOpen, setIsOpen] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
-  const [position, setPosition] = useState({ x: 0, y: 0 });
   const constraintsRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    // Set initial position
-    setPosition({
-      x: window.innerWidth - 80,
-      y: window.innerHeight - 100,
-    });
-  }, []);
 
   return (
     <>
@@ -70,7 +61,7 @@ export default function WhatsAppButton() {
             <div className="p-4">
               <div className="bg-white/80 rounded-xl p-3 shadow-sm">
                 <p className="text-dark text-sm font-body leading-relaxed">
-                  Greetings! Welcome to 'Adhyatmik Sankalp'. We are here for online puja, spiritual guidance, or any other service.
+                  Greetings! Welcome to &apos;Adhyatmik Sankalp&apos;. We are here for online puja, spiritual guidance, or any other service.
                 </p>
               </div>
               <a
