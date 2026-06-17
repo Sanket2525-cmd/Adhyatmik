@@ -1,7 +1,7 @@
 export const WHATSAPP_NUMBER = "916396348034";
 
 export const WHATSAPP_MESSAGE = encodeURIComponent(
-  `Pranam 🙏\nMain Adhyatmik Sankalp ke madhyam se online puja aur spiritual guidance ke baare me jankari lena chahta/chahti hu.`
+  `Pranam 🙏\nI would like to get information about online puja and spiritual guidance through Adhyatmik Sankalp.`
 );
 
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`;
